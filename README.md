@@ -32,7 +32,7 @@ The other is a "pogo" stick, which you will see specified in "pogo.py". It looks
 
 #### Kangaroo
 
-```
+```bash
 # Run the python main() function to get the human-playable GUI
 python3 kangaroo.py
 ```
@@ -41,11 +41,11 @@ Available commands:
 
 - `x` - break all the joints and watch the poor simulated creature fall apart completely
 - `r` - reset the game
-- `q`, `w`, `o`, `p`, `e`,`i`, `right click` - controls for moving the unipedal creature
+- `q`, `w`, `o`, `p`, `e`,`i`, `left click` - controls for moving the unipedal creature
 
 #### Pogo
 
-```
+```bash
 # Run the python main() function to get the human-playable GUI
 python3 pogo.py
 ```
@@ -54,14 +54,12 @@ Available commands:
 
 - `x` - break all the joints and watch the poor simulated creature fall apart completely
 - `r` - reset the game
-- `q`, `w`, `o`, `p`, `right click` - controls for moving the unipedal creature
+- `q`, `w`, `o`, `p`, `left click` - controls for moving the unipedal creature
 
 
 ### Running for AI training
 
 These games are compatible with the OpenAI Gym APIs, and you only need to import the relevant file to train an AI on the game. (The relevant files being `kangaroo.py` and `pogo.py`.)
-
-TODO: look up exactly _which_ API this corresponds to and add a link. Also, and more importantly, make sure that the API definitions are still up to date in the code...
 
 ## Ok, but your code is spaghetti. Like, reading it is an even worse experience than playing your horrible game.
 
